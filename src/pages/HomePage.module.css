@@ -1,0 +1,33 @@
+.page { background: #000; color: #fff; }
+.nav { position: absolute; top: 0; left: 0; right: 0; z-index: 10; display: flex; align-items: center; justify-content: space-between; padding: 18px 4%; }
+.logo { height: 36px; object-fit: contain; }
+.signIn { background: var(--netflix-red); color: #fff; padding: 8px 18px; border-radius: 4px; font-weight: 700; font-size: 0.9rem; }
+.signIn:hover { background: #c5000f; }
+.hero { position: relative; min-height: 100vh; background: #000 url('https://assets.nflxext.com/ffe/siteui/vlv3/9d3533b2-0e5c-46d9-9c21-c7f491cfdaf3/web/IN-en-20240805-TRIFECTA-perspective_b852bce0-1d3e-42cd-8a05-0df9e1b1aadd_large.jpg') center/cover no-repeat; display: flex; align-items: center; justify-content: center; text-align: center; }
+.heroOverlay { position: absolute; inset: 0; background: rgba(0,0,0,0.55); border-bottom: 8px solid #222; }
+.heroContent { position: relative; z-index: 1; max-width: 700px; padding: 20px; }
+.heroContent h1 { font-size: clamp(1.8rem,5vw,3.5rem); font-weight: 700; margin-bottom: 16px; }
+.heroContent p { font-size: clamp(1rem,2vw,1.5rem); margin-bottom: 28px; }
+.getStarted { background: var(--netflix-red); color: #fff; padding: 14px 32px; border-radius: 4px; font-size: 1.1rem; font-weight: 700; }
+.getStarted:hover { background: #c5000f; }
+.divider { height: 8px; background: #222; }
+.feature { display: flex; align-items: center; justify-content: center; gap: 40px; padding: 70px 4%; max-width: 1100px; margin: 0 auto; }
+.feature.rev { flex-direction: row-reverse; }
+.featureText h2 { font-size: clamp(1.5rem,3.5vw,2.8rem); font-weight: 700; margin-bottom: 14px; }
+.featureText p { font-size: clamp(0.95rem,1.5vw,1.3rem); color: rgba(255,255,255,0.85); line-height: 1.6; }
+.feature img { max-width: 100%; max-height: 360px; object-fit: contain; flex: 1; }
+.featureText { flex: 1; }
+@media (max-width: 768px) { .feature, .feature.rev { flex-direction: column; text-align: center; } }
+.faq { padding: 70px 4%; max-width: 900px; margin: 0 auto; text-align: center; }
+.faq h2 { font-size: clamp(1.4rem,3vw,2.4rem); font-weight: 700; margin-bottom: 28px; }
+.item { background: #2d2d2d; border-radius: 4px; margin-bottom: 8px; text-align: left; overflow: hidden; }
+.q { display: flex; align-items: center; justify-content: space-between; padding: 20px 24px; font-size: 1.1rem; cursor: pointer; list-style: none; }
+.q::-webkit-details-marker { display: none; }
+.q span { font-size: 1.5rem; font-weight: 300; color: #b3b3b3; }
+.a { padding: 0 24px 20px; font-size: 1rem; color: rgba(255,255,255,0.85); line-height: 1.7; border-top: 1px solid #555; padding-top: 16px; }
+.footer { padding: 40px 4%; color: #808080; font-size: 0.82rem; border-top: 1px solid #333; }
+.footer p { margin-bottom: 16px; }
+.footerLinks { display: grid; grid-template-columns: repeat(4,1fr); gap: 10px 20px; max-width: 700px; margin-bottom: 16px; }
+.footerLinks span { cursor: pointer; }
+.footerLinks span:hover { text-decoration: underline; color: #b3b3b3; }
+@media (max-width: 600px) { .footerLinks { grid-template-columns: repeat(2,1fr); } }

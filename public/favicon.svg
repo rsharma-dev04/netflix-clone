@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 140">
+  <!-- Black background -->
+  <rect width="100" height="140" fill="#000000"/>
+
+  <!-- Shadow / dark part of N (right leg dark red) -->
+  <polygon points="62,10 78,10 78,130 62,130" fill="#8B0000"/>
+
+  <!-- Left leg of N -->
+  <polygon points="22,10 38,10 38,130 22,130" fill="#E50914"/>
+
+  <!-- Diagonal stroke (top-left to bottom-right) -->
+  <polygon points="22,10 78,130 62,130 22,36" fill="#E50914"/>
+
+  <!-- Right leg of N (bright red overlay) -->
+  <polygon points="62,10 78,10 78,85 62,62" fill="#E50914"/>
+</svg>

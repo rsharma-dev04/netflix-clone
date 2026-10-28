@@ -1,0 +1,79 @@
+.page { background: var(--netflix-dark); min-height: 100vh; }
+
+.content {
+  padding: calc(var(--header-height) + 32px) 4% 40px;
+}
+
+.heading {
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-weight: 700;
+  margin-bottom: 32px;
+  color: #fff;
+}
+
+.section {
+  margin-bottom: 48px;
+}
+
+.section h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #fff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+.card {
+  background: #1a1a1a;
+  border-radius: 6px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.6);
+}
+
+.img {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  background: #222;
+  display: block;
+}
+
+.cardInfo {
+  padding: 8px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6px;
+}
+
+.cardTitle {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cardRating {
+  font-size: 0.75rem;
+  color: #f5c518;
+  flex-shrink: 0;
+}
+
+.cardDate {
+  font-size: 0.75rem;
+  color: #46d369;
+  flex-shrink: 0;
+}

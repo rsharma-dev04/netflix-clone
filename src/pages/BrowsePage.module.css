@@ -1,0 +1,2 @@
+.page { background: var(--netflix-dark); min-height: 100vh; }
+.rows { margin-top: -120px; position: relative; z-index: 1; }

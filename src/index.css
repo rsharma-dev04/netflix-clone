@@ -1,0 +1,27 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --netflix-red: #e50914;
+  --netflix-dark: #141414;
+  --netflix-black: #000000;
+  --netflix-white: #ffffff;
+  --netflix-gray: #808080;
+  --netflix-light-gray: #b3b3b3;
+  --header-height: 68px;
+}
+
+body {
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: var(--netflix-dark);
+  color: var(--netflix-white);
+  overflow-x: hidden;
+}
+
+a { text-decoration: none; color: inherit; }
+button { cursor: pointer; border: none; outline: none; }
+img { display: block; }
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #555; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #888; }

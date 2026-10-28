@@ -1,0 +1,7 @@
+.footer { padding: 48px 4%; color: #808080; font-size: 0.8rem; }
+.social { font-size: 1.4rem; margin-bottom: 20px; display: flex; gap: 16px; }
+.links { display: grid; grid-template-columns: repeat(4,1fr); gap: 10px 20px; margin-bottom: 20px; max-width: 700px; }
+.link { cursor: pointer; }
+.link:hover { color: #b3b3b3; text-decoration: underline; }
+.copy { color: #555; }
+@media (max-width: 600px) { .links { grid-template-columns: repeat(2,1fr); } }

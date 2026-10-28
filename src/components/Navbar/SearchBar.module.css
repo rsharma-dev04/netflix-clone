@@ -1,0 +1,14 @@
+.wrap { position: relative; }
+.icon { background: none; color: #fff; display: flex; align-items: center; padding: 4px; }
+.box { display: flex; align-items: center; gap: 8px; border: 1px solid #fff; padding: 4px 12px; background: rgba(0,0,0,0.75); color: #fff; }
+.input { background: none; border: none; outline: none; color: #fff; font-size: 0.9rem; width: 200px; }
+.input::placeholder { color: #b3b3b3; }
+.close { background: none; color: #b3b3b3; font-size: 0.75rem; }
+.results { position: absolute; top: calc(100% + 12px); right: 0; background: rgba(0,0,0,0.96); border: 1px solid rgba(255,255,255,0.15); border-radius: 4px; width: 300px; max-height: 380px; overflow-y: auto; z-index: 200; }
+.msg { padding: 16px; color: #b3b3b3; font-size: 0.85rem; text-align: center; }
+.item { display: flex; align-items: center; gap: 12px; padding: 8px 12px; cursor: pointer; transition: background 0.15s; }
+.item:hover { background: rgba(255,255,255,0.1); }
+.thumb { width: 44px; height: 62px; object-fit: cover; border-radius: 2px; background: #333; flex-shrink: 0; }
+.name { font-size: 0.88rem; color: #fff; font-weight: 500; }
+.year { font-size: 0.75rem; color: #b3b3b3; display: flex; align-items: center; gap: 6px; margin-top: 2px; }
+.badge { background: rgba(255,255,255,0.15); padding: 1px 5px; border-radius: 3px; font-size: 0.68rem; text-transform: uppercase; }
